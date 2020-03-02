@@ -1,0 +1,15 @@
+:host{
+  min-height: 1px;
+  height: 100%;
+}
+#uxl-virtualizer{
+  min-height: 1px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.item{
+  padding: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid back;
+}

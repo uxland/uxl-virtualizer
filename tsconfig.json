@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2017",
     "module": "commonjs",
     "rootDir": ".",
     "allowJs": true,
@@ -16,7 +16,10 @@
     "noResolve": false,
     "strict": false,
     "suppressExcessPropertyErrors": true,
-    "lib": ["es2018", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2019", "DOM"],
+    "sourceMap": true,
+    "declaration": false,
     "baseUrl": ".",
     "paths": {
       "tslib": ["node_modules/tslib/tslib.d.ts"]
